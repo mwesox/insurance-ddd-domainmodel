@@ -1,5 +1,6 @@
 package de.wedecom.angebot;
 
+import de.wedecom.produkt.Produkt;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -11,5 +12,6 @@ public class Angebot {
     private String id;
     private BigDecimal beitrag;
     private List<VersicherteGefahren> versicherteGefahren;
+    private Produkt produkt;
 
 }
